@@ -29,25 +29,28 @@ When collecting evidence you should proceed from the most volatile to the less v
 ### Physical Memory
 Physical memory (aka RAM) is the short-term memory of a computer.  The information contained within this memory is volatile and prone to decay after the computer is shutdown, but data from the memory is some of the most valuable data you can obtain.  From it you can find artifacts hidden by attackers and processes that have exited.
 
-
+![](MemoryPassword.PNG)
  
 Here you can see an example of the information you can get from physical memory.  Here you can see the paths that were taken, executables that were run, and even passwords.
 
 ### Volatility Analysis
 Volatility analysis is using tools to extract data from physical memory.  Below is an example of a volatility tool which is showing all of the different operations it can do to aid in a volatility analysis.
- 
+
+![](ScreenCap1.PNG)
+
+![](ScreenCap2.PNG)
  
 ### Other Malware Related Volatility Tools
-•	malfind
-•	svcscan
-•	ldrmodules
-•	impscan
-•	apihooks
-•	idt
-•	gdt
-•	orphanthreads
-•	callbacks
-•	driverirp
-•	psxview
-•	ssdt_ex
-•	ssdt_by_threads
+- malfind
+- svcscan
+- ldrmodules
+- impscan
+- apihooks
+- idt
+- gdt
+- orphanthreads
+- callbacks
+- driverirp
+- psxview
+- ssdt_ex
+- ssdt_by_threads
