@@ -31,3 +31,4 @@ WinDbg is a standard debugger program that freezes a program for inspection.  Be
 - q: Quit
 
 ### Lab Lesson 1
+The first lesson of the lab is a basic overview on how to use WinDbg and how to apply it to 
