@@ -24,3 +24,5 @@ The Agony lab demonstrates an example on how rootkits work.  Using Cuckoo and Tu
 Hooking is the process of intercepting fuction calls and altering them.  The rootkit is are using the NTQueryDirectoryFile to hide the file with the malware in it (winit.sys), NTEnumerateValueKey to hides the registries that are being created by the malware, and NTQuerySystemInfromation to hide the processesm in Process Explorer or Task Scheduler.
 
 ![](images/image2.jpg)
+
+Below is the offset found through WinDbg.
