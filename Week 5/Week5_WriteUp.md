@@ -19,6 +19,8 @@ Processes are sets of instructions being executed by the computer CPU, and the C
 ### Agony Lab
 The Agony lab demonstrates an example on how rootkits work.  Using Cuckoo and Tuluka, we find a suspicious file called winit.sys.  It is performig three different functions, NTEnumerateValueKey, NTQueryDirectoryFile, and NTQuerySystemInformation.  NTQueryDirectoryFile is a function that create a directory and enumerate it, NTEnumerateValueKey helps enumerate registry values, and NTQuerySystemInformation gives infromation about a system allowing for easier enumeration of a process.  These three functions are contributing to the rootkit hooking the parameters being passed to the kernel.
 
-
+![](images/image1.PNG)
 
 Hooking is the process of intercepting fuction calls and altering them.  The rootkit is are using the NTQueryDirectoryFile to hide the file with the malware in it (winit.sys), NTEnumerateValueKey to hides the registries that are being created by the malware, and NTQuerySystemInfromation to hide the processesm in Process Explorer or Task Scheduler.
+
+![](images/image1.jpg)
