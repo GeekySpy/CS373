@@ -25,4 +25,6 @@ Hooking is the process of intercepting fuction calls and altering them.  The roo
 
 ![](images/image2.jpg)
 
-Below is the offset found through WinDbg.
+Below is the offset found through by attatching WinDbg to wininit.exe and using the command ?eip - ntdll.
+
+![](images/offset
