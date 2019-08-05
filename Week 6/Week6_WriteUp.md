@@ -1,4 +1,4 @@
-## Week 5 Write Up
+## Week 6 Write Up
 
 ### Network Security
 Network security is the prevention of unauthorized intrusions into a network.  These security measures can be host based, in the network, or even out on a network.  
