@@ -45,6 +45,9 @@ Below are list of common network protections strategies.
 * Reputation
   * Collect a list of bad and good data, serve the list out from a cloud
   
+ * Spoofing
+   * Attackers masquerades as another network entity in order to gain some kind of advantage over the network dfenses of the target
+  
 ### Man in the Middle
 The man in the middle is a concept within network security.  It is the idea that a person can intercept signals and messages between two parties.  The man in the middle can use this interception for good and bad deeds.  Below is a list of common actions a man in the middle can do.
 
@@ -74,3 +77,11 @@ The man in the middle is a concept within network security.  It is the idea that
   * In front of a server, by sharing the private key
   * Use DNS MITM to fool the client into believing the certificate is valid
  
+## Reconnaissance
+Reconnaissance is done by attackers to obtain information on their targets.  For example, attackers need to find the address of a service before they can attack it.  There are two kinds of reconnaissance, active and passive.  Active reconnaissance is getting information that will help directly attack a target.  Most active reconnaissance come in the form of scanning tools that try to connect to hosts and services, allowing attackers to find vulnerabilities within a system.  
+
+![](Images/image5.PNG)
+
+Passive reconnaissance is obtaining information that won't directly hurt a system or alert the system to the attacker presence.  This is generally just data collecting by an attacker.  This is done through tapping into ISPs, hiding equipment in wiring closets, or listening to radio signals.
+
+There are several ways to defend against reconnaissance.  Both policy and deep inspection helps, and honeynets can slow down reconnaissance.  
