@@ -22,3 +22,5 @@ Web browsers work in layers:
 * Javascript: Versatile layer that can interact with any other layer in several ways
 
 ![](Images/image4.PNG)
+
+Injection points are 
