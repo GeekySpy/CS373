@@ -23,4 +23,61 @@ Web browsers work in layers:
 
 ![](Images/image4.PNG)
 
-Injection points are 
+Injection points are places where threats can find their way into a browser.  Below is a list of those points.
+
+![](Images/image5.PNG)
+
+### User Level Attacks
+When it comes to malware attacks, users are the weak link that can be exploited.  Using social engineering attackers can take advantage of user traits (such as impatience, laziness, etc.), and make the user user malicious content.  Below are a list of different techniques an attacker can use.
+
+* Phishing: Make users click links claiming to be trustworthy companies to trick users in giving away information
+  * URLs are not always delivered via email
+  * Linked sites are short-lived
+  * ![](Images/image6.PNG)
+  
+* SEO Poisoning: Create sites related to popular search trends to redirect users to malicious content
+  * Search results can include celecrities, pop culture, world events, etc.
+  * Plays around a search engine's relevance rules to get their site noticed
+  
+* Fake Updates and Fake AV: Delievers malware by disguising links as updates for trusted applications
+  * Prey's on user's good intentions
+  * Often mimics OS-level UI components, but occasionally mimics well-known security brands
+  * Can also trick users into paying money for "upgrades"
+  * ![](Images/image7.PNG)
+
+* WYSIWYG: Obstructs URLs to make them look less suspicious
+  * URL shortening services
+  * Homographic attacks: Many characters look alike, so attackers can make their link look like another trusted site
+  
+* Social Media Attacks: Where attackers use social media to get user information
+  * I saw the link on Facebook and Twitter, so it must be OK, right?
+  * Catfishing
+  
+* Malvertising: Attackers use advertising networks as delivery mechanism for malware.
+  * Does not require web site or hosting
+  * Dangerous because most end users implicitly trust content on high-profile, popular, and known sites
+  * ![](Images/image8.PNG)
+
+* Waterhole Attack: Attackers inject malicious malware into popular websites to infect visitors
+  * ![](Images/image9.PNG)
+
+### Common Defenses Against User Attacks
+* URL/Domain Reputation Systems
+* Site Certification Services
+* Client and Gateway AV/AM
+* Safe URL Shortners
+* Content Provider Education
+* End User Education
+
+### Web Malware Tools
+* Alexa: Helps determine general site popularity and prevalence
+* Archive.org: Useful for determining site changes over time
+* IPVoid: Checks an IP against a large list of IP blacklists
+* CheckShortURL: URL expander for most short URL services
+* Site Dossier: Gets general site information
+* Webutation: URL reputation clearinghouse
+* Web Inspector: Online web scanning tool that also provides list of recently detected malicious sites
+* Virus Total: Online web scanning tool that provides list of malware files
+* Linux Jwhois: Domain registration data client
+* Linux DIG: DNS resolver utility
+* IOC (Indicators of Compromise): A threat feeds that connects the DOTs
