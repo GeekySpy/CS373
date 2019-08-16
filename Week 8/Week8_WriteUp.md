@@ -60,7 +60,7 @@ An example of SMTP Conversations catching spam is shown below.  In it, a phrase 
 
 ![](Images/image7.PNG)
 
-While there are some protections in place, the underlying layer SMTP Conversations is vulnerable and can be manipulated.  For example, a user can alter the banner given so it looks like they are someone else and the message will still get approved (Spoofing).
+While there are some protections in place, the underlying layer of SMTP Conversations is vulnerable and can be manipulated.  For example, a user can alter the banner given so it looks like they are someone else and the message will still get approved (this is called spoofing).
 
 ### The Data Scientific Method
 The point of data is to extract information, context, and value from it.  Below are steps to help analyze data.
