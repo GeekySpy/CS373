@@ -36,5 +36,18 @@ Botnets have been use to send these messages for a while, but they started getti
 
 From the data you can tell that spam and botnets were huge in 2010, with the Rustock botnet dominating.  However, Rustock was not inconspicuous about their actions, and law enforcement cracked down on them.  From then on, the global spam market dropped until 2013, when a botnet called Kelihos began to rise in popularity.  Kelihos then drops off the face of the Earth in 2014.  What the graph doesn't show is that during declines, there is an increase of malicious messages that infect computer systems.  These viruses help give rise to the next wave of botnets.
 
+## Defending Against Spam
+Tools for defending against spam come in two forms, reputation-driven and content-driven tools.  Reputation-driven tools like IP addresses and URLs are used to try filter spam by looking at the history and source of messages.  Content-driven tools, such as common strings, message attributes, regular and meta expressions, try to filter spam by analyzing what is in a message.  Additional tools for research purposes are listed below.
 
+* Linux Tools: Can investigate DNS records, search for IP registration information, and is capable of parsing data
+* Open-source databases: Contains useful information and other tools
+* The Regex Coach: Helps with expression syntax/functionality learning
+* Trustedsource.org: Historical and current reputations based on McAfee data
+* Spamhaus.org: Widely accepted as an authoritative source of repudataion data (Ecspecially in NA)
+
+Here are list of resarch techniques:
+* Parsing: Extraction of key metadata (information for other data)
+* Grouping: Group messages by timestamp, source IP, cidr, subject, URL, etc.
+* Aggregation: Categorize research paths in relation to value and time
+* Identification of Outliers: When A, which is highly similar to B, is classified as spam but B is not. Why or why not?
 
